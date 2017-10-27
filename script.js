@@ -1,4 +1,4 @@
-function stalkerModeOn() {
+const stalkerModeOn = () => {
   const linkedIn = document.body
   const annoyingModal = document.querySelector('#advocate-modal')
   annoyingModal.style.display = 'none'
